@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    animation: move 5s linear infinite;
 }
 body {
     background-color: #000;
@@ -7,4 +8,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+@keyframes move {
+    from {
+        rotate: 0deg;
+    } to {
+        rotate: 360deg;
+    }
 }
