@@ -2,6 +2,10 @@ h1 {
     text-align: center;
     animation: move 5s linear infinite;
 }
+p {
+    color: orange;
+    text-align: center;
+}
 body {
     background-color: #000;
     display: flex;
